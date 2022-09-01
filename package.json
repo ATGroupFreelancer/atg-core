@@ -1,11 +1,12 @@
 {
     "name": "atg-core",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "This package will help the ATG can work better and faster",
     "main": "src/index.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "tsc --noEmit && eslint --ext .ts,.tsx ./",
+        "version": "./version-next.sh",
         "prettier:write": "npx prettier --write **/*.{ts,tsx,json} && npx prettier --write *.{ts,tsx,json}"
     },
     "husky": {

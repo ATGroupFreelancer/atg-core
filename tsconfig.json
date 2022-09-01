@@ -9,7 +9,12 @@
         "moduleResolution": "node",
         "noEmit": true,
         "strict": true,
-        "target": "esnext"
+        "target": "esnext",
+        "baseUrl": ".",
+        "typeRoots": ["types"],
+        "paths": {
+          "*": ["src/*"]
+        },
     },
     "exclude": [
         "node_modules",
