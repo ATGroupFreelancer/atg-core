@@ -1,0 +1,43 @@
+{
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": false
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter":  "vscode.typescript-language-features",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],  
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.formatOnSaveMode": "modifications",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "cSpell.words": [
+    "fontawesome",
+    "groveone",
+    "ISIOS",
+    "itms",
+    "mixpanel",
+    "MYWIDTH",
+    "Pressable",
+    "reviewee",
+    "Signin",
+    "spinkit",
+    "sprynkl",
+    "Subviews",
+    "TABBAR",
+    "xdate"
+  ],
+  "editor.bracketPairColorization.enabled": false
+}
