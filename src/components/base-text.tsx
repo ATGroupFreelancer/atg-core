@@ -1,6 +1,6 @@
 import { Fonts } from '../constants';
 import React from 'react';
-import { Text, TextStyle } from 'react-native';
+import { Text, TextProps, TextStyle } from 'react-native';
 
 
 const DEFAULT_TEXT_COLOR = '#111'
@@ -18,7 +18,9 @@ export interface BaseTextProps {
     ellipsizeMode?: 'head' | 'middle' | 'tail' | 'clip';
     onPress?: () => void;
     adjustsFontSizeToFit?: boolean
+    textProps: TextProps
 }
+
 export const BaseText = ({
     children,
     bold,
@@ -31,7 +33,8 @@ export const BaseText = ({
     suppressHighlighting,
     ellipsizeMode,
     onPress,
-    adjustsFontSizeToFit = false
+    adjustsFontSizeToFit = false,
+    textProps
 }: BaseTextProps): JSX.Element => {
     const customStyle: TextStyle = { color: DEFAULT_TEXT_COLOR, fontFamily: Fonts.Regular };
     if (regular) {
@@ -57,7 +60,8 @@ export const BaseText = ({
             style={[customStyle, style]}
             numberOfLines={numberOfLines}
             ellipsizeMode={ellipsizeMode}
-            suppressHighlighting={suppressHighlighting}>
+            suppressHighlighting={suppressHighlighting}
+            {...textProps}>
             {children}
         </Text>
     );
