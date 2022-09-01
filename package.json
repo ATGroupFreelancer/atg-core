@@ -1,0 +1,32 @@
+{
+  "name": "atg-core",
+  "version": "0.0.1",
+  "description": "This package will help the ATG can work better and faster",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATGroupFreelancer/atg-core.git"
+  },
+  "keywords": [
+    "atg-core",
+    "react-native",
+    "components",
+    "utils"
+  ],
+  "author": "ATGroup",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ATGroupFreelancer/atg-core/issues"
+  },
+  "homepage": "https://github.com/ATGroupFreelancer/atg-core#readme",
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/react": "^18.0.18",
+    "@types/react-native": "^0.69.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "typescript": "^4.8.2"
+  }
+}
