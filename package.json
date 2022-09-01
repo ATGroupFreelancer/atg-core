@@ -1,6 +1,6 @@
 {
     "name": "atg-core",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "This package will help the ATG can work better and faster",
     "main": "src/index.ts",
     "scripts": {
