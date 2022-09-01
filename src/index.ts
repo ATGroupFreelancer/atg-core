@@ -1,5 +1,5 @@
-import * as lodash from 'lodash'
+import * as lodash from 'lodash';
 
-export * from './utils'
+export * from './utils';
 
-export { lodash }
+export { lodash };
