@@ -24,6 +24,7 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "cSpell.words": [
+    "ellipsize",
     "fontawesome",
     "groveone",
     "ISIOS",
